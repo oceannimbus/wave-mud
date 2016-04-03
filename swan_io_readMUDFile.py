@@ -15,6 +15,8 @@ def swan_io_readMUDFile(filename):
     
     revision: 0
     '''
+    
+    import pandas as pd
 
     specs = dict()
     kw    = dict(columns=('Freq [Hz]',
